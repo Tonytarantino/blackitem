@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    background-color: black;
+}
+nav {
+    background-color: black;
+}
+.navbar  {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: grey;
+    font-weight: 700;
+}
+
+.carrito {
+    position: absolute;
+    right: 0;
+}
+
+/* -------portada------ */
+.carrusel {
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.imgCarrusel {
+    height: 500px;
+}
+
+.textoIntro {
+    text-align: center;
+}
+
+.intro {
+    width: 70%;
+    margin: 0 auto;
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 50px;
+}
+
+.tituloIntro {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    margin: 30px;
+}
+
+.listaIntro {
+    list-style-image: url("../images/iconX.png");
+
+}
+
+.itemIntro {
+    margin: 30px;
+}
+
+#nuestrosProductos {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+/* --------cards-------------------- */
+
+
+.contenedorCards {
+    margin: 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.tamañoCard {
+    width: 20rem;
+    /* height: 28rem; */
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    color: black;
+    font-family: 'Prompt', sans-serif;
+}
+
+.card-text {
+    color: black;
+    text-align: center;
+}
+
+.precio {
+    color: black;
+    text-align: center;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    text-align: center;
+}
+
+.button:hover {
+    box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.27);
+    -webkit-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.27);
+    -moz-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.27);
+    font-family: 'Prompt', sans-serif;
+}
+
+/*--------------- form---------------------------- */
+h1 {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: black;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.main-block {
+    /*  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    min-height: 30rem;
+    background-image: url("../images/portadaTres.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-bottom: 30px;
+
+}
+
+#contacto {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+form {
+    padding: 25px;
+    margin: 25px;
+    /*  box-shadow: 0 2px 5px #f5f5f5; */
+    background: white;
+    
+    margin: 0 auto;
+    
+}
+
+.fas {
+    margin: 25px 10px 0;
+    font-size: 60px;
+    color: white;
+}
+
+.fa-envelope {
+    transform: rotate(-20deg);
+}
+
+.fa-at,
+.fa-mail-bulk {
+    transform: rotate(10deg);
+}
+
+input,
+textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: black;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+button:hover {
+    background: grey;
+}
+
+@media (min-width: 568px) {
+    .main-block {
+        flex-direction: row;
+    }
+
+    .left-part,
+    form {
+        width: 50%;
+    }
+
+    .fa-envelope {
+        margin-top: 0;
+        margin-left: 20%;
+    }
+
+    .fa-at {
+        margin-top: -10%;
+        margin-left: 65%;
+    }
+
+    .fa-mail-bulk {
+        margin-top: 2%;
+        margin-left: 28%;
+    }
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: white; 
+}
+
+/* -------CARRITO----------- */
+
+.carrito {
+    position: absolute;
+    right: 0;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+.tablaPedidos {
+    width: 70%;
+    margin: 0 auto;
+}
+.tablaProducto{
+    text-align: center;
+}
+.imgCarrito {
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.inputCantidad {
+    width: 40px;
+    border: none;
+    outline: 0;
+    font: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/*__total__ */
+.total {
+   
+   margin-right: 100px;
+    margin-top: 50px;
+}
